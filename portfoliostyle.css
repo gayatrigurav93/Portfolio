@@ -183,5 +183,20 @@ align-items:flex-start;
 .drpcontent{
 left:0;}
 }
+ .mailCTA{
+  text-decoration: none;
+  border-radius: 30px;
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  padding:12px 20px;
+  background-color: #ff9800;
+  color:#fff;
+  font-weight: 500;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+   transition:background 0.3s ease;
 
-
+ }
+.mailCTA :hover{
+  background-color:  #e68900;
+}
